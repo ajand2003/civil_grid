@@ -115,7 +115,7 @@ function collectPolygons(features, maps) {
 
   function collectMultiCoordinates(geometry) {
     let polygons = []; 
-    geometry.coordinates.map(c => {
+    geometry.coordinates.forEach(c => {
       polygons.push(collectCoordinates(c));
     });
   
