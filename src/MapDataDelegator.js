@@ -1,12 +1,12 @@
-import '../App.css';
+import './App.css';
 import Maps from './Map';
 import { BrowserRouter } from 'react-router-dom';
 import {Routes, Route} from 'react-router-dom';
 import ChargerData from './ChargerData';
 import Navbar from './Navbar';
 import ProjectData from './ProjectData';
-import cipData from '/Users/anija/Desktop/civil_grid/src/data/cip_projects.json';
-import evData from '/Users/anija/Desktop/civil_grid/src/data/ev_chargers.json';
+import cipData from './cip_projects.json';
+import evData from './ev_chargers.json';
 import React, { useState } from 'react';
 import GoogleMapReact from "google-map-react";
 

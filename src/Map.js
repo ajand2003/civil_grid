@@ -1,11 +1,6 @@
 
 import GoogleMapReact from "google-map-react";
-import  Polygon from '@react-google-maps/api';
-import cipData from '/Users/anija/Desktop/civil_grid/src/data/cip_projects.json';
-import evData from '/Users/anija/Desktop/civil_grid/src/data/ev_chargers.json'
 
-const loadCipData = () => JSON.parse(JSON.stringify(cipData));
-const loadEvData = () => JSON.parse(JSON.stringify(evData));
 
 
 const RED_ICON = "http://maps.google.com/mapfiles/ms/icons/blue-dot.png";

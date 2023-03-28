@@ -1,5 +1,5 @@
 import './App.css';
-import MapDataDelegator from './components/MapDataDelegator';
+import MapDataDelegator from './MapDataDelegator';
 
 function App() {
   return (
